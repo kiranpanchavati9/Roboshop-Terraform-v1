@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8fc22804-f578-4d74-a795-db4334f85b92" name="Changes" comment="tags are updated in resources">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/main.tf" beforeDir="false" afterPath="$PROJECT_DIR$/resources/main.tf" afterDir="false" />
-    </list>
+    <list default="true" id="8fc22804-f578-4d74-a795-db4334f85b92" name="Changes" comment="resource droplet and firewall has been updated" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -141,7 +138,15 @@
       <option name="project" value="LOCAL" />
       <updated>1775321543691</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="resource droplet and firewall has been updated">
+      <option name="closed" value="true" />
+      <created>1775322006814</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1775322006814</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -150,6 +155,7 @@
     <MESSAGE value="tags has been updated" />
     <MESSAGE value="tags has been commited" />
     <MESSAGE value="tags are updated in resources" />
-    <option name="LAST_COMMIT_MESSAGE" value="tags are updated in resources" />
+    <MESSAGE value="resource droplet and firewall has been updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="resource droplet and firewall has been updated" />
   </component>
 </project>
