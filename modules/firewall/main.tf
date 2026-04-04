@@ -3,6 +3,8 @@ resource "digitalocean_firewall" "splunk_dev" {
 
   tags = [var.tag_name]
 
+  # -------- INBOUND RULES --------
+
   # SSH
   inbound_rule {
     protocol         = "tcp"
@@ -23,16 +25,24 @@ resource "digitalocean_firewall" "splunk_dev" {
     source_addresses = ["0.0.0.0/0", "::/0"]
   }
 
-  # Splunk
+  # Splunk UI
   inbound_rule {
     protocol         = "tcp"
     port_range       = "8000"
     source_addresses = ["0.0.0.0/0", "::/0"]
   }
 
+  # Splunk Management
   inbound_rule {
     protocol         = "tcp"
     port_range       = "8089"
+    source_addresses = ["0.0.0.0/0", "::/0"]
+  }
+
+  # Splunk Forwarder
+  inbound_rule {
+    protocol         = "tcp"
+    port_range       = "9997"
     source_addresses = ["0.0.0.0/0", "::/0"]
   }
 
@@ -42,7 +52,8 @@ resource "digitalocean_firewall" "splunk_dev" {
     source_addresses = ["0.0.0.0/0", "::/0"]
   }
 
-  # Outbound (allow all)
+  # -------- OUTBOUND RULES --------
+
   outbound_rule {
     protocol              = "tcp"
     port_range            = "1-65535"
@@ -53,12 +64,6 @@ resource "digitalocean_firewall" "splunk_dev" {
     protocol              = "udp"
     port_range            = "1-65535"
     destination_addresses = ["0.0.0.0/0", "::/0"]
-  }
-
-  inbound_rule {
-    protocol         = "tcp"
-    port_range       = "9997"
-    source_addresses = ["0.0.0.0/0"]
   }
 
   outbound_rule {
