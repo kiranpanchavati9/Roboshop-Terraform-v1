@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8fc22804-f578-4d74-a795-db4334f85b92" name="Changes" comment="firewall module updated">
+    <list default="true" id="8fc22804-f578-4d74-a795-db4334f85b92" name="Changes" comment="main.tf updated">
       <change beforePath="$PROJECT_DIR$/modules/main.tf" beforeDir="false" afterPath="$PROJECT_DIR$/modules/main.tf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -216,7 +216,15 @@
       <option name="project" value="LOCAL" />
       <updated>1775324436203</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="main.tf updated">
+      <option name="closed" value="true" />
+      <created>1775324823627</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1775324823627</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -230,7 +238,8 @@
     <MESSAGE value="modules are created, firewall module is pushing now" />
     <MESSAGE value="splunk main.tf removed" />
     <MESSAGE value="firewall module updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="firewall module updated" />
+    <MESSAGE value="main.tf updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="main.tf updated" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
