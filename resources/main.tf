@@ -2,7 +2,7 @@ resource "digitalocean_tag" "splunk_tag" {
   name = "splunk-prod"
 }
 
-resource "digitalocean_droplet" "foobar" {
+resource "digitalocean_droplet" "splunk" {
   name   = "splunk-prod"
   size   = "s-1vcpu-1gb"
   image  = "ubuntu-22-04-x64"
@@ -13,6 +13,7 @@ resource "digitalocean_droplet" "foobar" {
 resource "digitalocean_firewall" "splunk" {
   name = "splunk-prod-firewall"
   tags = [digitalocean_tag.splunk_tag.name]
+  droplet_ids = [digitalocean_droplet.splunk.id]
 
   inbound_rule {
     protocol         = "tcp"
