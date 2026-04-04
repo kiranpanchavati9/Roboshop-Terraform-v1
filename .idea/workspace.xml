@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8fc22804-f578-4d74-a795-db4334f85b92" name="Changes" comment="main.tf updated">
-      <change beforePath="$PROJECT_DIR$/modules/main.tf" beforeDir="false" afterPath="$PROJECT_DIR$/modules/main.tf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources-test/main.tf" beforeDir="false" afterPath="$PROJECT_DIR$/resources-test/main.tf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources-test/provider.tf" beforeDir="false" afterPath="$PROJECT_DIR$/resources-test/provider.tf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +50,11 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.dialog.project.terraform&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -224,7 +230,31 @@
       <option name="project" value="LOCAL" />
       <updated>1775324823627</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="main.tf updated">
+      <option name="closed" value="true" />
+      <created>1775325018396</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1775325018396</updated>
+    </task>
+    <task id="LOCAL-00022" summary="main.tf updated">
+      <option name="closed" value="true" />
+      <created>1775325026906</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1775325026906</updated>
+    </task>
+    <task id="LOCAL-00023" summary="main.tf updated">
+      <option name="closed" value="true" />
+      <created>1775325032337</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1775325032337</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
