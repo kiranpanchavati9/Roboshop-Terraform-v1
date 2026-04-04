@@ -3,12 +3,13 @@ resource "digitalocean_droplet" "foobar" {
   size   = "s-1vcpu-1gb"
   image  = "ubuntu-22-04-x64"
   region = "nyc3"
+  tags   = "splunk-prod"
 }
 
 resource "digitalocean_firewall" "splunk" {
   name = "only-22-80-and-443"
 
-  droplet_ids = [digitalocean_droplet.splunk.id]
+  tags   = "splunk-prod"
   inbound_rule {
     protocol         = "tcp"
     port_range       = "22"

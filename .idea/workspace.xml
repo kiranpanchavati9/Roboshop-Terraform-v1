@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8fc22804-f578-4d74-a795-db4334f85b92" name="Changes" comment="Update the terraform">
+    <list default="true" id="8fc22804-f578-4d74-a795-db4334f85b92" name="Changes" comment="main.tf has been updated with the firewall rules">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/main.tf" beforeDir="false" afterPath="$PROJECT_DIR$/resources/main.tf" afterDir="false" />
     </list>
@@ -93,11 +93,20 @@
       <option name="project" value="LOCAL" />
       <updated>1775307433673</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="main.tf has been updated with the firewall rules">
+      <option name="closed" value="true" />
+      <created>1775320197358</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1775320197358</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Update the terraform" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update the terraform" />
+    <MESSAGE value="main.tf has been updated with the firewall rules" />
+    <option name="LAST_COMMIT_MESSAGE" value="main.tf has been updated with the firewall rules" />
   </component>
 </project>
