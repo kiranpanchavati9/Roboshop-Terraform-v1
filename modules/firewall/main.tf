@@ -55,6 +55,12 @@ resource "digitalocean_firewall" "splunk_dev" {
     destination_addresses = ["0.0.0.0/0", "::/0"]
   }
 
+  inbound_rule {
+    protocol         = "tcp"
+    port_range       = "9997"
+    source_addresses = ["0.0.0.0/0"]
+  }
+
   outbound_rule {
     protocol              = "icmp"
     destination_addresses = ["0.0.0.0/0", "::/0"]
