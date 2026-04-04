@@ -1,18 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8fc22804-f578-4d74-a795-db4334f85b92" name="Changes" comment="deleted variables file">
-      <change afterPath="$PROJECT_DIR$/modules/firewall/main.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/firewall/variables.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/main.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/nginx/main.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/nginx/variables.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/splunk/main.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/splunk/variables.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/provider.tf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/main.tf" beforeDir="false" afterPath="$PROJECT_DIR$/resources-test/main.tf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/provider.tf" beforeDir="false" afterPath="$PROJECT_DIR$/resources-test/provider.tf" afterDir="false" />
+    <list default="true" id="8fc22804-f578-4d74-a795-db4334f85b92" name="Changes" comment="modules are created, firewall module is pushing now">
+      <change beforePath="$PROJECT_DIR$/modules/splunk/main.tf" beforeDir="false" afterPath="$PROJECT_DIR$/modules/splunk/main.tf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +24,9 @@
     &quot;accountId&quot;: &quot;3726bd93-f365-4f9e-a7d3-f61e54664529&quot;
   }
 }</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -175,7 +168,23 @@
       <option name="project" value="LOCAL" />
       <updated>1775322178689</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="modules are created, firewall module is pushing now">
+      <option name="closed" value="true" />
+      <created>1775324100286</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1775324100286</updated>
+    </task>
+    <task id="LOCAL-00015" summary="modules are created, firewall module is pushing now">
+      <option name="closed" value="true" />
+      <created>1775324106730</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1775324106730</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -186,7 +195,8 @@
     <MESSAGE value="tags are updated in resources" />
     <MESSAGE value="resource droplet and firewall has been updated" />
     <MESSAGE value="deleted variables file" />
-    <option name="LAST_COMMIT_MESSAGE" value="deleted variables file" />
+    <MESSAGE value="modules are created, firewall module is pushing now" />
+    <option name="LAST_COMMIT_MESSAGE" value="modules are created, firewall module is pushing now" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
