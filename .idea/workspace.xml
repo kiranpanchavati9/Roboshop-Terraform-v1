@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8fc22804-f578-4d74-a795-db4334f85b92" name="Changes" comment="main.tf updated">
-      <change beforePath="$PROJECT_DIR$/resources-test/main.tf" beforeDir="false" afterPath="$PROJECT_DIR$/resources-test/main.tf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources-test/provider.tf" beforeDir="false" afterPath="$PROJECT_DIR$/resources-test/provider.tf" afterDir="false" />
+    <list default="true" id="8fc22804-f578-4d74-a795-db4334f85b92" name="Changes" comment="deleted old resource folder">
+      <change afterPath="$PROJECT_DIR$/modules/firewall/versions.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/nginx/versions.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/splunk/versions.tf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -254,7 +256,23 @@
       <option name="project" value="LOCAL" />
       <updated>1775325032337</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="commented resources">
+      <option name="closed" value="true" />
+      <created>1775325241981</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1775325241981</updated>
+    </task>
+    <task id="LOCAL-00025" summary="deleted old resource folder">
+      <option name="closed" value="true" />
+      <created>1775325359648</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1775325359648</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -269,7 +287,9 @@
     <MESSAGE value="splunk main.tf removed" />
     <MESSAGE value="firewall module updated" />
     <MESSAGE value="main.tf updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="main.tf updated" />
+    <MESSAGE value="commented resources" />
+    <MESSAGE value="deleted old resource folder" />
+    <option name="LAST_COMMIT_MESSAGE" value="deleted old resource folder" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
