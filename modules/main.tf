@@ -1,12 +1,12 @@
 module "splunk" {
-  source = "./modules/splunk"
+  source = "/root/Roboshop-Terraform-v1/splunk"
 }
 
 module "nginx" {
-  source = "./modules/nginx"
+  source = "/root/Roboshop-Terraform-v1/nginx"
 }
 
 module "firewall" {
-  source = "./modules/firewall"
+  source = "/root/Roboshop-Terraform-v1/firewall"
   tag_name = "splunk-dev"
 }
