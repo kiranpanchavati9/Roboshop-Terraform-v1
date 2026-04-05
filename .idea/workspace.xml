@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8fc22804-f578-4d74-a795-db4334f85b92" name="Changes" comment="main.tf updated- tags">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.tf" beforeDir="false" afterPath="$PROJECT_DIR$/main.tf" afterDir="false" />
+    <list default="true" id="8fc22804-f578-4d74-a795-db4334f85b92" name="Changes" comment="updated main.tf in splunk module">
       <change beforePath="$PROJECT_DIR$/modules/splunk/main.tf" beforeDir="false" afterPath="$PROJECT_DIR$/modules/splunk/main.tf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -287,7 +285,15 @@
       <option name="project" value="LOCAL" />
       <updated>1775326272981</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="updated main.tf in splunk module">
+      <option name="closed" value="true" />
+      <created>1775365291526</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1775365291526</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -306,7 +312,8 @@
     <MESSAGE value="deleted old resource folder" />
     <MESSAGE value="versions.tf has been created in all the modules" />
     <MESSAGE value="main.tf updated- tags" />
-    <option name="LAST_COMMIT_MESSAGE" value="main.tf updated- tags" />
+    <MESSAGE value="updated main.tf in splunk module" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated main.tf in splunk module" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

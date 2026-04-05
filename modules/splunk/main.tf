@@ -1,5 +1,5 @@
 # Create a new tag
-resource "digitalocean_tag" "splunk_tag" {
+resource "digitalocean_tag" "splunk_vm_tag" {
   name = "splunk_tag"
 }
 
@@ -9,5 +9,5 @@ resource "digitalocean_droplet" "splunk_prod_vm" {
   name   = "splunk_prod_vm"
   region = "nyc3"
   size   = "s-1vcpu-1gb"
-  tags   = [digitalocean_tag.splunk_tag.name]
+  tags   = [digitalocean_tag.splunk_vm_tag.name]
 }
