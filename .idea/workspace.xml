@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="8fc22804-f578-4d74-a795-db4334f85b92" name="Changes" comment="creating droplets">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.tf" beforeDir="false" afterPath="$PROJECT_DIR$/main.tf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,22 +68,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1775305402996</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Update the terraform">
-      <option name="closed" value="true" />
-      <created>1775307433673</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1775307433673</updated>
-    </task>
-    <task id="LOCAL-00005" summary="main.tf has been updated with the firewall rules">
-      <option name="closed" value="true" />
-      <created>1775320197358</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1775320197358</updated>
     </task>
     <task id="LOCAL-00006" summary="tags has been updated">
       <option name="closed" value="true" />
@@ -462,7 +445,23 @@
       <option name="project" value="LOCAL" />
       <updated>1775391704825</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="creating droplets">
+      <option name="closed" value="true" />
+      <created>1775392352594</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1775392352594</updated>
+    </task>
+    <task id="LOCAL-00054" summary="creating droplets">
+      <option name="closed" value="true" />
+      <created>1775392554133</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1775392554133</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
