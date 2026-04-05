@@ -446,7 +446,15 @@
       <option name="project" value="LOCAL" />
       <updated>1775379533500</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="user droplet has been created">
+      <option name="closed" value="true" />
+      <created>1775379588046</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1775379588046</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
