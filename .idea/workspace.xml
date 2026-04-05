@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8fc22804-f578-4d74-a795-db4334f85b92" name="Changes" comment="tag updated">
-      <change beforePath="$PROJECT_DIR$/modules/splunk/main.tf" beforeDir="false" afterPath="$PROJECT_DIR$/modules/splunk/main.tf" afterDir="false" />
+    <list default="true" id="8fc22804-f578-4d74-a795-db4334f85b92" name="Changes" comment="updated OS">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/modules/splunk/variables.tf" beforeDir="false" afterPath="$PROJECT_DIR$/modules/splunk/variables.tf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -302,7 +302,23 @@
       <option name="project" value="LOCAL" />
       <updated>1775365409427</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="tag updated">
+      <option name="closed" value="true" />
+      <created>1775365703510</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1775365703510</updated>
+    </task>
+    <task id="LOCAL-00031" summary="updated OS">
+      <option name="closed" value="true" />
+      <created>1775365863203</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1775365863203</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -323,7 +339,8 @@
     <MESSAGE value="main.tf updated- tags" />
     <MESSAGE value="updated main.tf in splunk module" />
     <MESSAGE value="tag updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="tag updated" />
+    <MESSAGE value="updated OS" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated OS" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
