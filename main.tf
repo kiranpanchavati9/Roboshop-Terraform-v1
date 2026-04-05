@@ -14,7 +14,7 @@ resource "digitalocean_droplet" "user" {
 
 ## FIREWALL RULE ALLOW ALL FOR THE USER
 
-resource "digitalocean_firewall" "roboshop-firewall-all" {
+resource "digitalocean_firewall" "user" {
   name = "allow-all-roboshop"
 
   tags = [digitalocean_tag.user.name]
