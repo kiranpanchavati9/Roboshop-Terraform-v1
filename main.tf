@@ -14,7 +14,7 @@ resource "digitalocean_droplet" "user" {
 
 ## FIREWALL RULE ALLOW ALL FOR THE USER
 
-resource "digitalocean_firewall" "allow-all-roboshop" {
+resource "digitalocean_firewall" "allow-all-roboshop-user" {
   name = "allow-all-roboshop"
 
   droplet_ids = [digitalocean_droplet.user.id]
@@ -52,7 +52,7 @@ resource "digitalocean_droplet" "shipping" {
 
 ## FIREWALL RULE ALLOW ALL FOR THE shipping
 
-resource "digitalocean_firewall" "allow-all-roboshop" {
+resource "digitalocean_firewall" "allow-all-roboshop-shipping" {
   name = "allow-all-roboshop"
 
   droplet_ids = [digitalocean_droplet.shipping.id]
@@ -88,7 +88,7 @@ resource "digitalocean_droplet" "redis" {
 
 ## FIREWALL RULE ALLOW ALL FOR THE redis
 
-resource "digitalocean_firewall" "allow-all-roboshop" {
+resource "digitalocean_firewall" "allow-all-roboshop-redis" {
   name = "allow-all-roboshop"
 
   droplet_ids = [digitalocean_droplet.redis.id]
@@ -126,7 +126,7 @@ resource "digitalocean_droplet" "rabbitmq" {
 
 ## FIREWALL RULE ALLOW ALL FOR THE rabbitmq
 
-resource "digitalocean_firewall" "allow-all-roboshop" {
+resource "digitalocean_firewall" "allow-all-roboshop-rabbitmq" {
   name = "allow-all-roboshop"
 
   droplet_ids = [digitalocean_droplet.rabbitmq.id]
@@ -163,7 +163,7 @@ resource "digitalocean_droplet" "payment" {
 
 ## FIREWALL RULE ALLOW ALL FOR THE payment
 
-resource "digitalocean_firewall" "allow-all-roboshop" {
+resource "digitalocean_firewall" "allow-all-roboshop-payment" {
   name = "allow-all-roboshop"
 
   droplet_ids = [digitalocean_droplet.payment.id]
@@ -200,7 +200,7 @@ resource "digitalocean_droplet" "mysql" {
 
 ## FIREWALL RULE ALLOW ALL FOR THE mysql
 
-resource "digitalocean_firewall" "allow-all-roboshop" {
+resource "digitalocean_firewall" "allow-all-roboshop-mysql" {
   name = "allow-all-roboshop"
 
   droplet_ids = [digitalocean_droplet.mysql.id]
@@ -236,7 +236,7 @@ resource "digitalocean_droplet" "mongodb" {
 
 ## FIREWALL RULE ALLOW ALL FOR THE mongodb
 
-resource "digitalocean_firewall" "allow-all-roboshop" {
+resource "digitalocean_firewall" "allow-all-roboshop-mongodb" {
   name = "allow-all-roboshop"
 
   droplet_ids = [digitalocean_droplet.mongodb.id]
@@ -272,7 +272,7 @@ resource "digitalocean_droplet" "frontend" {
 
 ## FIREWALL RULE ALLOW ALL FOR THE frontend
 
-resource "digitalocean_firewall" "allow-all-roboshop" {
+resource "digitalocean_firewall" "allow-all-roboshop-frontend" {
   name = "allow-all-roboshop"
 
   droplet_ids = [digitalocean_droplet.frontend.id]
@@ -309,7 +309,7 @@ resource "digitalocean_droplet" "dispatch" {
 
 ## FIREWALL RULE ALLOW ALL FOR THE dispatch
 
-resource "digitalocean_firewall" "allow-all-roboshop" {
+resource "digitalocean_firewall" "allow-all-roboshop-dispatch" {
   name = "allow-all-roboshop"
 
   droplet_ids = [digitalocean_droplet.dispatch.id]
@@ -346,7 +346,7 @@ resource "digitalocean_droplet" "catalogue" {
 
 ## FIREWALL RULE ALLOW ALL FOR THE catalogue
 
-resource "digitalocean_firewall" "allow-all-roboshop" {
+resource "digitalocean_firewall" "allow-all-roboshop-catalogue" {
   name = "allow-all-roboshop"
 
   droplet_ids = [digitalocean_droplet.catalogue.id]
@@ -382,7 +382,7 @@ resource "digitalocean_droplet" "cart" {
 
 ## FIREWALL RULE ALLOW ALL FOR THE cart
 
-resource "digitalocean_firewall" "allow-all-roboshop" {
+resource "digitalocean_firewall" "allow-all-roboshop-cart" {
   name = "allow-all-roboshop"
 
   droplet_ids = [digitalocean_droplet.cart.id]
