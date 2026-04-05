@@ -21,13 +21,13 @@ resource "digitalocean_firewall" "allow-all-roboshop" {
 
   inbound_rule {
     protocol         = "tcp"
-    port_range       = "0-65535"
+    port_range       = "1-65535"
     source_addresses = ["0.0.0.0/0", "::/0"]
   }
 
   outbound_rule {
     protocol              = "tcp"
-    port_range            = "0-65535"
+    port_range            = "1-65535"
     destination_addresses = ["0.0.0.0/0", "::/0"]
   }
 }
