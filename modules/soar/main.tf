@@ -1,5 +1,5 @@
 # Create a new tag
-resource "digitalocean_tag" "soar-prod" {
+resource "digitalocean_tag" "soar_prod_tag" {
   name = "soarprod"
 }
 
@@ -9,5 +9,5 @@ resource "digitalocean_droplet" "soar-prod" {
   name   = "fortisoar-prod"
   region = "nyc3"
   size   = "s-1vcpu-1gb"
-  tags   = [digitalocean_tag.soar-prod.name]
+  tags = [var.tag_name]
 }

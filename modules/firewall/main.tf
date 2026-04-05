@@ -1,12 +1,7 @@
-# 1. Define the tag as a resource
-resource "digitalocean_tag" "splunk_tag" {
-  name = var.tag_name
-}
-
-resource "digitalocean_firewall" "splunk_dev" {
+resource "digitalocean_firewall" "soar-prod" {
   name = "splunk-allow-ports-dev"
 
-  tags = [digitalocean_tag.splunk_tag.name]
+  tags = [var.tag_name]
 
   # -------- INBOUND RULES --------
 
