@@ -6,7 +6,7 @@ resource "digitalocean_tag" "user" {
 # Create a new Droplet in nyc3 with the user tag
 resource "digitalocean_droplet" "user" {
   image  = "ubuntu-22-04-x64"
-  name   = "web-1"
+  name   = "user"
   region = "nyc3"
   size   = "s-1vcpu-1gb"
   tags   = [digitalocean_tag.user.name]
