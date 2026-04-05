@@ -1,3 +1,5 @@
 variable "tag_name" {
-  type = string
+  description = "The name of the DigitalOcean tag"
+  type        = string
+  default     = "splunk-prod-tag"
 }
