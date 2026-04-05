@@ -1,5 +1,6 @@
 module "splunk" {
   source = "./modules/splunk"
+  tag_name = "splunk-dev"
 }
 
 module "nginx" {
@@ -8,5 +9,5 @@ module "nginx" {
 
 module "firewall" {
   source   = "./modules/firewall"
-  tag_name = "splunk-dev"
+    tag_name = "splunk-dev"
 }
