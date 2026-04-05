@@ -4,7 +4,7 @@ resource "digitalocean_tag" "splunk_vm_tag" {
 }
 
 # Create a new Droplet in nyc3 with the foobar tag
-resource "digitalocean_droplet" "splunk_prod_vm" {
+resource "digitalocean_droplet" "splunk_prod_nyc" {
   image  = "ubuntu-22-04-x64"
   name   = "splunk-prod-vm"
   region = "nyc3"
@@ -13,7 +13,7 @@ resource "digitalocean_droplet" "splunk_prod_vm" {
 }
 
 # Create a new Droplet in nyc3 with the foobar tag
-resource "digitalocean_droplet" "splunk_prod_vm" {
+resource "digitalocean_droplet" "splunk_prod_blr" {
   image  = "ubuntu-22-04-x64"
   name   = "splunk-prod-vm-1"
   region = "blr1"
