@@ -15,14 +15,14 @@ resource "digitalocean_droplet" "user" {
 ## FIREWALL RULE ALLOW ALL FOR THE USER
 
 # Create a new tag for the user
-resource "digitalocean_tag" "user" {
+resource "digitalocean_tag" "user_firewall" {
   name = "user"
 }
 
 resource "digitalocean_firewall" "allow-all-roboshop" {
   name = "allow-all-roboshop"
 
-  tags = [digitalocean_tag.user.id]
+  tags = [digitalocean_tag.user_firewall.name]
 
   inbound_rule {
     protocol         = "tcp"
