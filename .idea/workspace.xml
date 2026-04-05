@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8fc22804-f578-4d74-a795-db4334f85b92" name="Changes" comment="updated OS">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="8fc22804-f578-4d74-a795-db4334f85b92" name="Changes" comment="tag has been updated">
       <change beforePath="$PROJECT_DIR$/modules/splunk/variables.tf" beforeDir="false" afterPath="$PROJECT_DIR$/modules/splunk/variables.tf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -318,7 +317,15 @@
       <option name="project" value="LOCAL" />
       <updated>1775365863203</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="tag has been updated">
+      <option name="closed" value="true" />
+      <created>1775366030599</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1775366030599</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -340,7 +347,8 @@
     <MESSAGE value="updated main.tf in splunk module" />
     <MESSAGE value="tag updated" />
     <MESSAGE value="updated OS" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated OS" />
+    <MESSAGE value="tag has been updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="tag has been updated" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

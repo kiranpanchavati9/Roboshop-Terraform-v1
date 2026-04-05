@@ -1,3 +1,3 @@
-variable "splunk_vm_tag" {
+variable "tag_name" {
   type = string
 }
