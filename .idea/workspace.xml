@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8fc22804-f578-4d74-a795-db4334f85b92" name="Changes" comment="soar module has been updated">
+    <list default="true" id="8fc22804-f578-4d74-a795-db4334f85b92" name="Changes" comment="tags has been created and updated">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/firewall/main.tf" beforeDir="false" afterPath="$PROJECT_DIR$/modules/firewall/main.tf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/firewall/variables.tf" beforeDir="false" afterPath="$PROJECT_DIR$/modules/firewall/variables.tf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/modules/soar/main.tf" beforeDir="false" afterPath="$PROJECT_DIR$/modules/soar/main.tf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -397,7 +400,15 @@
       <option name="project" value="LOCAL" />
       <updated>1775374916825</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="tags has been created and updated">
+      <option name="closed" value="true" />
+      <created>1775375021993</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1775375021993</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -422,7 +433,8 @@
     <MESSAGE value="tag has been updated" />
     <MESSAGE value="variables updated" />
     <MESSAGE value="soar module has been updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="soar module has been updated" />
+    <MESSAGE value="tags has been created and updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="tags has been created and updated" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
