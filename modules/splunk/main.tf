@@ -11,3 +11,12 @@ resource "digitalocean_droplet" "splunk_prod_vm" {
   size   = "s-1vcpu-1gb"
   tags = [digitalocean_tag.splunk_vm_tag.name]
 }
+
+# Create a new Droplet in nyc3 with the foobar tag
+resource "digitalocean_droplet" "splunk_prod_vm" {
+  image  = "ubuntu-22-04-x64"
+  name   = "splunk-prod-vm-1"
+  region = "blr1"
+  size   = "s-1vcpu-1gb"
+  tags = [digitalocean_tag.splunk_vm_tag.name]
+}
