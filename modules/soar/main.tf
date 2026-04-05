@@ -1,6 +1,6 @@
 # Create a new tag
 resource "digitalocean_tag" "soar_prod_tag" {
-  name = "soarprod"
+  name = [var.tag_name]
 }
 
 # Create a new Droplet in nyc3 with the foobar tag
